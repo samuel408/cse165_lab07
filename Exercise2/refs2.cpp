@@ -2,9 +2,10 @@
 
 using namespace std;
 
-void initialize_pint(int* pointNum , int num ){
+void initialize_pint(int*& pointNum , int num ){
+		pointNum = new int ;
+		*pointNum = num;
 
-	pointNum = &num;
 }
 
 int main( int argc, const char * argv[] )
