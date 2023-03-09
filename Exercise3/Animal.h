@@ -3,6 +3,8 @@
 
 #include <iostream>
 
+using namespace std;
+
 class Animal {
 	std::string name;
 	int age;
@@ -16,6 +18,12 @@ public:
 	Animal( std::string n, int a ) {
 		name = n;
 		age = a;
+	}
+	
+	virtual void talk(){
+		cout << "Dog::talk" << endl;
+		cout << "Cat::talk" << endl;
+
 	}
 };
 
