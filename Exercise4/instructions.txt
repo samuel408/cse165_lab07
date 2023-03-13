@@ -4,7 +4,8 @@ Create the following 3 classes:
 
 1. AppWindow class, containing:
 
-- A protected instance of a rectangle class Rect defining the AppWindow's position (x,y) and size (w,h). (You may use the Rect class you developed in the previous lab. In main(), the width and height are assumed to be public and called "w" and "h".)
+- A protected instance of a rectangle class Rect defining the AppWindow's position (x,y) and size (w,h). 
+(You may use the Rect class you developed in the previous lab. In main(), the width and height are assumed to be public and called "w" and "h".)
 
 - The following constructors to initialize the dimensions:
 
